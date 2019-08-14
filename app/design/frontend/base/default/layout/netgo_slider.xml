@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/***************************************
+ *** Home Background Slider Extension ***
+ ***************************************
+ *
+ * @copyright   Copyright (c) 2015
+ * @company     NetAttingo Technologies
+ * @package     Netgo_Slider
+ * @author 		Vipin
+ * @dev			77vips@gmail.com
+ *
+ */
+-->
+<layout>
+    <default>
+	<reference name ='head'>
+	 <action method="addItem"><type>skin_css</type><name>css/netgobackslider/supersized.css</name><params/></action>
+				<action method="addItem"><type>skin_css</type><name>css/netgobackslider/supersized.shutter.css</name><params/></action> 
+	</reference>
+	</default> 
+</layout>

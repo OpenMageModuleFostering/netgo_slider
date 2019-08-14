@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--
+/***************************************
+ *** Home Background Slider Extension ***
+ ***************************************
+ *
+ * @copyright   Copyright (c) 2015
+ * @company     NetAttingo Technologies
+ * @package     Netgo_Slider
+ * @author 		Vipin
+ * @dev			77vips@gmail.com
+ *
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <netgo_slider translate="title" module="netgo_slider">
+                                        <title>Slider</title>
+                                    </netgo_slider>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <cms>
+                        <children>
+                            <netgo_slider translate="title" module="netgo_slider">
+                                <title>Home Background Slider</title>
+                                <children>
+                                    <homeslider translate="title" module="netgo_slider">
+                                        <title>Homeslider</title>
+                                        <sort_order>0</sort_order>
+                                    </homeslider>
+                                </children>
+                            </netgo_slider>                        </children>
+                    </cms>
+
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <cms>
+            <children>
+                <netgo_slider translate="title" module="netgo_slider">
+                    <title>Home Background Slider</title>
+                    <sort_order>17</sort_order>
+                    <children>
+                        <homeslider translate="title" module="netgo_slider">
+                            <title>Homeslider</title>
+                            <action>adminhtml/slider_homeslider</action>
+                            <sort_order>0</sort_order>
+                        </homeslider>
+                    </children>
+                </netgo_slider>            </children>
+        </cms>
+
+    </menu>
+</config>

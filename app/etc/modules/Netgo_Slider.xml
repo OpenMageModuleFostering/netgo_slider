@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/***************************************
+ *** Home Background Slider Extension ***
+ ***************************************
+ *
+ * @copyright   Copyright (c) 2015
+ * @company     NetAttingo Technologies
+ * @package     Netgo_Slider
+ * @author 		Vipin
+ * @dev			77vips@gmail.com
+ *
+ */
+-->
+<config>
+    <modules>
+        <Netgo_Slider>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+             </depends>
+        </Netgo_Slider>
+    </modules>
+</config>
