@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Netgo_Slider",
+    "name": "openmage-module-fostering\/netgo_slider",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Helps to upload complete background slider for homepage",
     "authors": [
